@@ -15,7 +15,7 @@ get the second position:we need the second lowest mark,as we have sorted
 the post position is first low value store it
 '''
 sec_low_mark = sorted(list(set(student_dic.values())))[1];
-#another dctionary for storing the second lowest mark student
+# another dctionary for storing the second lowest mark student
 second_lowest = []
 for stud_name, stud_mark in student_dic.items():
     if stud_mark == sec_low_mark:
