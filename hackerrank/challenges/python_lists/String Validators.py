@@ -1,3 +1,4 @@
+
 S = str(input());
 '''
 In the first line, print True if has any alphanumeric characters. Otherwise, print False.
@@ -11,4 +12,3 @@ print(any(i.isalpha() for i in S));
 print(any(i.isdigit() for i in S));
 print(any(i.islower() for i in S));
 print(any(i.isupper() for i in S));
-
